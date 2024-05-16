@@ -1,0 +1,16 @@
+S nMCSteps 1000000
+S writeEvery 500
+S nghbRadius 0.01
+S remeshEvery 200 
+S remeshIter 10
+S RFile bud.log
+S RFreq 10 
+S autoTuneUntil 200
+S updateNghbrsEvery 5000
+S updateDefEvery 100000
+E DEF 0 1.6
+E DEF 1 0.3
+E LAMBDA 0 5000
+E LAMBDA 1 1000
+M STEP 0 1
+M STEP 1 1

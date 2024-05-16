@@ -1,0 +1,38 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[cma()]{cmake}
+{CMake Build System 3.0}.
+\newblock URL \url{https://cmake.org/}.
+
+\bibitem[osx()]{osxcross}
+{macOS Cross toolchain for Linux and *BSD}.
+\newblock URL \url{https://github.com/tpoechtrager/osxcross}.
+
+\bibitem[gcc(2023)]{gcc}
+{GNU C++ Compiler 11.4.0}, 2023.
+\newblock URL \url{https://gcc.gnu.org/}.
+
+\bibitem[Miao et~al.(1994)Miao, Seifert, Wortis, and
+  D\"obereiner]{PhysRevE.49.5389}
+L.~Miao, U.~Seifert, M.~Wortis, and H.-G. D\"obereiner.
+\newblock Budding transitions of fluid-bilayer vesicles: The effect of
+  area-difference elasticity.
+\newblock \emph{Phys. Rev. E}, 49:\penalty0 5389--5407, Jun 1994.
+\newblock \doi{10.1103/PhysRevE.49.5389}.
+
+\bibitem[Ope(2021)]{openmp}
+\emph{{OpenMP API 5.2}}.
+\newblock OpenMP Architecture Review Board, 2021.
+\newblock URL \url{https://www.openmp.org/}.
+
+\bibitem[Wenzel()]{pybind11}
+J.~Wenzel.
+\newblock {PyBind11 Documentation}.
+\newblock URL \url{https://pybind11.readthedocs.io/en/stable/}.
+
+\end{thebibliography}

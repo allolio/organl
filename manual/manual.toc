@@ -1,0 +1,41 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction and Disclaimer}{1}{section.1}%
+\contentsline {section}{\numberline {2}Installation and System Requirements}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Linux Environment}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Building on Microsoft Windows}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Cross-compiling on Linux for MacOS}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Usage}{6}{section.3}%
+\contentsline {section}{\numberline {4}Features}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Units}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Implemented Energy Functionals}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Edge Terms}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Lipid Mixing}{12}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Input Files}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Preparing the Files}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Mesh file}{13}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Membrane Properties File (props.txt)}{14}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Control file}{17}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Simulation Settings S}{18}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Energy Settings E}{19}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}MC Settings M}{19}{subsubsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.5}Lipid file}{20}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Blocks file}{20}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Output Files}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Output Mesh (out.obj)}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Output Interpolant (out.plt)}{22}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}VTK Visual Summary (out.vtu)}{22}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Output Membrane Properties (props\_out.txt):}{22}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Output to console.}{23}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}VTU Files for Monitoring}{23}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Report File: }{23}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Restart Files: }{24}{subsection.6.8}%
+\contentsline {section}{\numberline {7}Resuming a Simulation}{24}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Continuing a Finished Simulation}{24}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Continuing an Unfinished Simulation:}{24}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Visualization}{25}{section.8}%
+\contentsline {section}{\numberline {9}Tips on Simulation Planning and Execution}{26}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Basic Strategy}{26}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}How to set targets and penalties}{27}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}How to optimize performance}{27}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}How to monitor accuracy}{28}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}How to set boundary conditions}{28}{subsection.9.5}%

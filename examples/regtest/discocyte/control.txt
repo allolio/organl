@@ -1,0 +1,15 @@
+S nMCSteps 4000000
+S writeEvery 1000 
+S nghbRadius 0.15
+S RFile 2.50_ss.log
+S RFreq 5
+S updateNghbrsEvery 200
+E LAMBDA 0 10000
+E LAMBDA 1 16000
+E DEF 0 12.566
+E DEF 1 2.62
+M STEP 0 0.15
+M STEP 1 1.00
+S remeshEvery 900 
+S remeshIter 10
+

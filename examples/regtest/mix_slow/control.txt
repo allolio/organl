@@ -1,0 +1,16 @@
+S nMCSteps 150000 
+S writeEvery 500
+S nghbRadius 0.01
+S updateNghbrsEvery 5000
+S updateDefEvery 100000
+S remeshEvery 500 
+S remeshIter 10
+S RFreq 100
+S BETA 1
+E DEF 0 1.6
+E DEF 1 0.0
+M STEP 0 0.08
+M STEP 1 .8
+M STEP 2 2.5
+E LAMBDA 0 0.0
+E LAMBDA 1 0.0

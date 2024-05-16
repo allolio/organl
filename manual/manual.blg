@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: manual.aux
+The style file: abbrvnat.bst
+Database file #1: ref.bib
+Warning--entry type for "gcc" isn't style-file defined
+--line 1 of file ref.bib
+Warning--entry type for "cmake" isn't style-file defined
+--line 8 of file ref.bib
+Warning--entry type for "pybind11" isn't style-file defined
+--line 37 of file ref.bib
+Warning--entry type for "osxcross" isn't style-file defined
+--line 43 of file ref.bib
+Warning--to sort, need author or key in gcc
+Warning--to sort, need author or key in cmake
+Warning--to sort, need author or key in osxcross
+Warning--empty year in cmake
+Warning--empty year in osxcross
+Warning--empty year in pybind11
+You've used 6 entries,
+            2773 wiz_defined-function locations,
+            621 strings with 5173 characters,
+and the built_in function-call counts, 1881 in all, are:
+= -- 178
+> -- 49
+< -- 1
++ -- 21
+- -- 15
+* -- 139
+:= -- 231
+add.period$ -- 16
+call.type$ -- 6
+change.case$ -- 23
+chr.to.int$ -- 6
+cite$ -- 21
+duplicate$ -- 98
+empty$ -- 209
+format.name$ -- 17
+if$ -- 419
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 36
+num.names$ -- 8
+pop$ -- 73
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 83
+stack$ -- 0
+substring$ -- 48
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 66
+warning$ -- 6
+while$ -- 8
+width$ -- 0
+write$ -- 73
+(There were 10 warnings)

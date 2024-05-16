@@ -1,0 +1,122 @@
+%%% colors
+
+
+% theorem-like environments
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{definition}{Definition}
+
+% note/suggestion boxes
+\newcommand*{\note}[1]{\smallskip\noindent\colorbox{SkyBlue}{
+  \begin{minipage}{\linewidth}
+  \textbf{Note }#1
+  \end{minipage}}\smallskip
+}
+\newcommand*{\suggestion}[1]{\smallskip\noindent\colorbox{Dandelion}{
+  \begin{minipage}{\linewidth}
+  \textbf{Suggestion }#1
+  \end{minipage}}\smallskip
+}
+
+% calculus (miscellaneous)
+\newcommand*{\diff}{\mathrm{d}}
+\newcommand{\dd}[3][]{\frac{\diff^{#1} {#2}}{\diff {#3}^{#1}}}
+\newcommand{\pd}[2]{\frac{\partial {#1}}{\partial {#2}}}
+\newcommand*{\Diff}{\mathrm{D}}
+\newcommand*{\loc}{\mathrm{loc}}
+\newcommand*{\iunit}{\mathrm{i}}
+\newcommand*{\realpart}[1]{\mathrm{Re} \parens{#1}}
+\newcommand*{\imagpart}[1]{\mathrm{Im} \parens{#1}}
+\newcommand{\exponential}[1]{\mathrm{e}^{#1}}
+\DeclareMathOperator\arctanh{arctanh}
+
+% sets
+\newcommand*{\set}[2][]{%
+	\ifthenelse{\equal{#1}{}}{\braces{#2}}{\braces{#2 \mid #1}}%
+}
+\newcommand*{\N}{\mathbb{N}}
+\newcommand*{\R}{\mathbb{R}}
+\newcommand*{\C}{\mathbb{C}}
+% text above signs
+\newcommand*{\texteq}[1]{\stackrel{\text{#1}}{=}}
+\newcommand*{\defeq}{\texteq{def}}
+\newcommand*{\textl}[1]{\stackrel{\text{#1}}{<}}
+\newcommand*{\textle}[1]{\stackrel{\text{#1}}{\le}}
+\newcommand*{\textg}[1]{\stackrel{\text{#1}}{>}}
+\newcommand*{\textge}[1]{\stackrel{\text{#1}}{\ge}}
+
+% parens, brackets, braces, angles
+\newcommand*{\parens}[1]{\left( #1 \right)}
+\newcommand*{\brackets}[1]{\left[ #1 \right]}
+\newcommand*{\braces}[1]{\left\{ #1 \right\}}
+\newcommand*{\angles}[1]{\langle #1 \rangle}
+\newcommand*{\restrict}[2]{\left. #1 \right|_{#2}}
+
+% norms
+\newcommand*{\abs}[2][]{\ensuremath{\left|#2\right|_{#1}}}
+\newcommand*{\norm}[2][]{\ensuremath{\left\|#2\right\|_{#1}}}
+
+% inner products
+\newcommand*{\inner}[3][parens]{%
+  \IfEqCase{#1}{%
+    {parens}{\parens{#2, #3}}%
+    {angles}{\angles{#2, #3}}%
+  }[\PackageError{inner}{Undefined option to inner: #1}{}]%
+}
+
+% function spaces
+\newcommand*{\lebs}[2]{L^{#1} \parens{#2}}
+\newcommand*{\leblocs}[2]{L^{#1}_{\loc} \parens{#2}}
+
+% vectors and tensors
+\renewcommand*{\vec}[1]{\bm{#1}}
+%\renewcommand{\vec}[1]{\ensuremath{\mathbf{#1}}}
+%\newcommand{\greekvec}[1]{\ensuremath{\boldsymbol{#1}}}
+%\makeatletter
+%\@ifpackageloaded{bm}% 
+%{\renewcommand{\vec}[1]{\ensuremath{\bm{#1}}}%
+%\renewcommand{\greekvec}[1]{\ensuremath{\bm{#1}}}%
+%}{%
+%\relax% do nothing
+%}
+%\makeatother
+\newcommand{\tensorq}[1]{\mathbb{#1}}      % tensorial quantity
+\newcommand{\tensorc}[1]{\mathrm{#1}}      % tensorial quantity components  
+
+\newcommand{\conjugate}[1]{#1^\star}
+\newcommand{\transpose}[1]{#1^\top}
+\newcommand{\transposei}[1]{#1^{-\top}}
+\newcommand{\inverse}[1]{#1^{-1}}
+
+% Identity matrix
+\newcommand{\identity}{\ensuremath{\tensorq{I}}}
+
+% operators
+\DeclareMathOperator{\divergence}{div}
+\DeclareMathOperator{\gradient}{grad}
+\DeclareMathOperator{\curl}{curl}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\signum}{sign}
+\DeclareMathOperator{\dist}{dist} % distance in a metric space
+
+% Cauchy stress
+\newcommand{\cstress}{\tensorq{T}}
+
+% velocity and velocity gradient, (skew)symmetric part of velocity gradient
+\newcommand{\vecv}{\ensuremath{\vec{v}}}
+\newcommand{\gradv}{\ensuremath{\nabla \vecv}}
+\newcommand{\gradasym}{\ensuremath{\tensorq{W}}}
+\newcommand{\gradsym}{\ensuremath{\tensorq{D}}}
+\newcommand{\gradvl}{\ensuremath{\tensorq{L}}}
+
+% energy, free energy, entropy, temperature
+\newcommand{\ienergy}{\ensuremath{e}}
+\newcommand{\fenergy}{\ensuremath{\psi}} % specific free energy
+\newcommand{\netfenergy}{\Psi} % net free energy
+\newcommand{\entropy}{\ensuremath{\eta}} % entropy
+\newcommand{\temp}{\ensuremath{\theta}} % temperature
+
+% linear elasticity theory
+\newcommand{\Youngmodulus}{\mathrm{E}}
+\newcommand{\Poissonratio}{\nu}

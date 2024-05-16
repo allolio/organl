@@ -1,0 +1,2 @@
+./organl oblate.obj
+

@@ -1,0 +1,11 @@
+S nMCSteps 4000000
+S writeEvery 1000 
+S nghbRadius 1
+S autoTuneUntil 1000
+S updateNghbrsEvery 1000
+S updateDefEvery 80000
+E LAMBDA 0 10000
+E LAMBDA 1 16000
+E DEF 0 12.566
+E DEF 1 4.00
+E INCR 1 -0.05

@@ -1,0 +1,14 @@
+S nMCSteps 1000000
+S writeEvery 500
+S nghbRadius 0.15
+S remeshEvery 200 
+S remeshIter 10
+S RFile crazy.log
+S RFreq 10 
+S autoTuneUntil 200
+S updateNghbrsEvery 50
+S updateDefEvery 100000
+E LAMBDA 0 20000
+M STEP 0 1
+M STEP 1 0.5
+M STEP 2 1

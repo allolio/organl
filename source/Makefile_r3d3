@@ -1,0 +1,28 @@
+# g++ -Wall -std=c++11 -fopenmp -O3 -c main.cpp -o nagata
+
+
+CC          = g++
+OPT         = -O3 -fopenmp -Wno-sign-compare
+CFLAGS      = -Wall -std=c++11 $(OPT)
+LIBS        = -lm
+
+
+targets = nagata
+objects = nagata.o
+
+.PHONY : default
+default : all
+
+.PHONY : all
+all : clean $(targets)
+
+nagata : nagata.o
+	$(CC) $(OPT) -o $@ $^ $(LDLIBS)
+
+nagata.o : main.cpp
+	#$(CC) -c $(CFLAGS)  main.cpp -o nagata.o
+	$(CC) -c $(CFLAGS) $< -o $@
+
+.PHONY : clean
+clean:
+	rm -f $(targets) $(objects)
